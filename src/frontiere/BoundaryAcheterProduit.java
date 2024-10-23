@@ -13,6 +13,10 @@ public class BoundaryAcheterProduit {
 	}
 
 	public void acheterProduit(String nomAcheteur) {
-		// TODO à completer
+		System.out.println("Quel produit voulez vous acheter ?");
+		String produit = scan.next();
+		System.out.println("Chez quel commerçant voulez-vous acheter des "+produit+" ?");
+		controlAcheterProduit.village.rechercherVendeursProduit(produit);
+		controlAcheterProduit.acheterProduit(produit, 0);
 	}
 }

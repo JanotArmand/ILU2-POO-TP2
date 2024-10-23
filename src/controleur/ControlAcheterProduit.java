@@ -15,5 +15,9 @@ public class ControlAcheterProduit {
 		this.controlTrouverEtalVendeur = controlTrouverEtalVendeur;
 	}
 
-	//TODO a completer
+	public int acheterProduit(String nomVendeur,int quantite) {
+		int quantiteAchete = 0;
+		
+		return quantiteAchete;
+	}
 }
